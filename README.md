@@ -2,7 +2,7 @@
 
 A standalone Python tool for randomizing an extracted `ie_a.fa` game archive. Includes a graphical interface, a command-line interface, reproducible seeds and detailed change logs.
 
-This is the randomizer, separate from StatCalcIEGO1. Version 1.1, with English interface text, comments, help and logs.
+This is the randomizer, separate from StatCalcIEGO1. Version 1.1
 
 ## Requirements
 
@@ -103,13 +103,8 @@ The interface and log labels are English. Game names default to English (`--lang
 
 The tool expects the Light / Shadow ARC0 and CfgBin layouts and rejects unsupported table structures. It patches integer values without resizing the contained files. After writing, it checks table layouts and element/position values. These checks do not establish that every randomized combination is playable or that all story scenes display correctly.
 
-For this English translation, three configurations were compared with the original Spanish version using the supplied GO Light archive: defaults, character identities restricted by gender, and unrestricted identities with chaos stats/growth/skills plus shuffled Fighting Spirit stats. All 75 modified/in-memory configuration files matched byte for byte in each comparison. English command-line help, a dry run and GUI labels were also checked. This was not an in-game playthrough or an independent test of Shadow.
-
 ## Repository files
 
 - `ie_randomizer.py` — the complete application.
 - `README.md` — these instructions.
-- `.gitignore` — excludes game archives, backups, generated spoiler logs and Python caches.
-# IEGO1Randomizer
-# IEGO1Randomizer
-# IEGO1Randomizer
+
