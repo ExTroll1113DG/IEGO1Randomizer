@@ -112,3 +112,4 @@ For this English translation, three configurations were compared with the origin
 - `.gitignore` — excludes game archives, backups, generated spoiler logs and Python caches.
 # IEGO1Randomizer
 # IEGO1Randomizer
+# IEGO1Randomizer
