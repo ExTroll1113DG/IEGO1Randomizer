@@ -111,3 +111,4 @@ For this English translation, three configurations were compared with the origin
 - `README.md` — these instructions.
 - `.gitignore` — excludes game archives, backups, generated spoiler logs and Python caches.
 # IEGO1Randomizer
+# IEGO1Randomizer
